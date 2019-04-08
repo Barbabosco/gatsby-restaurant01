@@ -75,4 +75,3 @@ const FooterWrapper = styled.div`
     ${styles.border({color:`${styles.colors.mainYellow}`})};
   }
 `
-

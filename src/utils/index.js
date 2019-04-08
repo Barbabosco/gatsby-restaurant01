@@ -1,5 +1,5 @@
 import * as styles from './styles.js';
-import { HomeHeader, PageHeader } from './header.js';
+import { HomeHeader, PageHeader } from './Header.js';
 import { Banner } from './Banner';
 import { BannerButton, SectionButton } from './Button';
 import { Section } from './Section';
