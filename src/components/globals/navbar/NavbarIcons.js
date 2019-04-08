@@ -8,31 +8,28 @@ export default class NavbarIcons extends React.Component {
   state = {
     icons:[
       { 
-        id: 1,
+        id: 0,
         name:<FaFacebook className="icon facebook-icon" />,
         path: 'https://www.facebook.com'
       },
       { 
-        id: 2,
+        id: 1,
         name:<FaTwitter className="icon twitter-icon" />,
         path: 'https://www.twitter.com'
       },
       { 
-        id: 3,
+        id: 2,
         name:<FaInstagram className="icon instagram-icon" />,
         path: 'https://www.instagram.com'
       }
     ]
   }
   render() {
-    console.log(this.state.icons[0].path);
     return (
     <IconWrapper>
       { this.state.icons.map( (iconObj) => {
-        return <a key={iconObj.id} href={iconObj.path} target="_blank" rel="noopener noreferrer">{iconObj.name}</a>
-        
-      }) }
-      
+        return <a key={iconObj.id} href={iconObj.path} target="_blank" rel="noopener noreferrer">{iconObj.name}</a>       
+      }) }      
     </IconWrapper>
     )
   }

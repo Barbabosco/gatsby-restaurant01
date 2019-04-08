@@ -4,7 +4,6 @@ import logo from './../../../images/logo.svg';
 import {FaAlignRight} from 'react-icons/fa';
 import { styles } from '../../../utils';
 
-import '../../layout.css';
 import styled from 'styled-components';
 
 export default class NavbarHeader extends React.Component {
@@ -23,6 +22,7 @@ export default class NavbarHeader extends React.Component {
 
 const HeaderWrapper = styled.div`
   padding: 0:4rem 1rem;
+  height: 50px; ////////////////////////////////////////////
   display: flex;
   align-items: center;
   justify-content: space-between;
