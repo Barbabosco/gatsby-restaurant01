@@ -27,7 +27,6 @@ const Gallery = (props) => {
       query={GET_IMAGES}
       render={data => {
         const images = data.getImages.edges;
-        console.log(data.getImages.edges);
         return (
           <Section>
             <GalleryWrapper>
